@@ -11,7 +11,7 @@ export interface ApiResponse {
 }
 
 class UserService {
-  static BASE_URL = 'https://sia-muni-web-latest.onrender.com';
+  static BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   // metodo para iniciar sesion
   static async login(userName: string, password: string, dispatch: React.Dispatch<any>) {

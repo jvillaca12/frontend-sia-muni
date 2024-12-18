@@ -2,7 +2,7 @@ import axios from 'axios';
 import UserService from 'data/services/UserService';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://sia-muni-web-latest.onrender.com',
+  baseURL: import.meta.env.VITE_BACKEND_URL,
 });
 
 // Interceptor para añadir el token a todas las peticiones

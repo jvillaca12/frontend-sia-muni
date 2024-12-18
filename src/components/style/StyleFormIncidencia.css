@@ -1,0 +1,34 @@
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  max-height: 90vh; /* Limita el alto del modal */
+  overflow-y: auto; /* Permite desplazamiento si el contenido es demasiado largo */
+}
+
+.form-tittle {
+  margin-bottom: 24px;
+  color: #aaa;
+}
+
+.form-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 8px !important;
+}
+
+button[type="submit"] {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #009688; /* Ajusta el color al deseado */
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100%;
+}

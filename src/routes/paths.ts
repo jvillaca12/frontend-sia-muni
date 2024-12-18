@@ -1,0 +1,30 @@
+export const rootPaths = {
+  homeRoot: '/',
+  authRoot: 'auth',
+  adminRoot: 'admin',
+  soporteRoot: 'soporte',
+  errorRoot: 'error',
+};
+
+export default {
+  home: `${rootPaths.homeRoot}`,
+  login: `/${rootPaths.authRoot}/login`,
+  signup: `/${rootPaths.authRoot}/sign-up`,
+  register: `/${rootPaths.authRoot}/register`,
+  admin: `/${rootPaths.adminRoot}`,
+  soporte: `/${rootPaths.soporteRoot}`,
+  chatbotiaAdmin: `/${rootPaths.adminRoot}/chatbootia`,
+  profileAdmin: `/${rootPaths.adminRoot}/profile`,
+  profileSoporte: `/${rootPaths.soporteRoot}/profile`,
+  detalleProblema: `/${rootPaths.soporteRoot}/detalle-problema/:id/:idUser/:rol`,
+  mantenimiento: `/${rootPaths.soporteRoot}/mantenimiento/:idUser/:rol`,
+  mantenimientoAdmin: `/${rootPaths.adminRoot}/mantenimiento`,
+  auditoriaAdmin: `/${rootPaths.adminRoot}/auditoria`,
+  auditoriaSoporte: `/${rootPaths.soporteRoot}/auditoria/:idUser/:rol`,
+  gestionar: `/${rootPaths.adminRoot}/gestion`,
+  historialAdmin: `/${rootPaths.adminRoot}/historial`,
+  historialSoporte: `/${rootPaths.soporteRoot}/historial`,
+  configAdmin: `/${rootPaths.adminRoot}/config`,
+  seguimiento: `/${rootPaths.soporteRoot}/seguimiento/:id/:idUser/:rol`,
+  404: `${rootPaths.errorRoot}/404`,
+};

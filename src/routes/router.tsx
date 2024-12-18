@@ -195,7 +195,7 @@ const routes: RouteObject[] = [
 ];
 
 const options: { basename: string; future: { v7_partialHydration: boolean } } = {
-  basename: '/sia',
+  basename: '/',
   future: {
     v7_partialHydration: true,
   },

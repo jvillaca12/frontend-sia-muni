@@ -2,7 +2,8 @@ import axios from 'axios';
 import UserService from 'data/services/UserService';
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL,
+  baseURL: "http://localhost:8080", // Cambia esto por la URL de tu backend
+  // baseURL: import.meta.env.VITE_BACKEND_URL,
 });
 
 // Interceptor para añadir el token a todas las peticiones

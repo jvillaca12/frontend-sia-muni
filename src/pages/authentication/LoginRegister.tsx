@@ -1,6 +1,6 @@
 import CustomInput from '../../components/common/CustomInput.js';
 import ReusableModal from 'components/common/ResuableDialog.js';
-import animationLogin from './AnimationLogin';
+import animationLogin from './AnimationLogin.js';
 import './StyleLogin.css';
 import { startTransition, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -190,7 +190,7 @@ function LoginRegister() {
           <div className="panel right-panel">
             <div className="content">
               <h3>¿Ya tienes cuenta?</h3>
-              <p>Al crear una cuenta, por defecto el rol de usuario será de soporte ténico.</p>
+              <p>Al crear una cuenta, por defecto el rol de usuario será de soporte técnico.</p>
               <button className="btn transparent" id="sign-in-btn" onClick={handleSignInClick}>
                 Iniciar Sesión
               </button>

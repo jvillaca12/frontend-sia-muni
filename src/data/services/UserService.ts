@@ -11,8 +11,10 @@ export interface ApiResponse {
 }
 
 class UserService {
-  static BASE_URL = import.meta.env.VITE_BACKEND_URL;
-
+  // static BASE_URL = import.meta.env.VITE_BACKEND_URL;
+  
+  static BASE_URL = "http://localhost:8080";
+  
   // metodo para iniciar sesion
   static async login(userName: string, password: string, dispatch: React.Dispatch<any>) {
     try {

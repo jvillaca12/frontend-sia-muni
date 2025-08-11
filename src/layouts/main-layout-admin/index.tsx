@@ -10,7 +10,7 @@ export const drawerCloseWidth = 110;
 const MainLayout = ({ children }: PropsWithChildren): ReactElement => {
   const [open, setOpen] = useState<boolean>(false);
   const handleDrawerToggle = () => setOpen(!open);
-
+  
   return (
     <>
       <Box sx={{ display: 'flex', minHeight: '100vh' }}>
